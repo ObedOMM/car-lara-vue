@@ -15,4 +15,11 @@ class CarsController extends Controller
 
         return $car;
     }
+
+
+    public function getCars(Request $request) {
+        $cars = Cars::all();
+
+        return $cars;
+    }
 }
