@@ -17,6 +17,9 @@ const app = new Vue({
             this.e_model = val_model;
           },
 
+
+
+
     createCar: function createCar() {
         var input = this.newCar;
         var _this = this;
@@ -47,6 +50,25 @@ const app = new Vue({
     mounted: function mounted(){
         this.getCars();
     },
+
+
+
+
+    editCar: function(){
+        var _this = this;
+        var id_val_1 = document.getElementById('e_id');
+        var make_val_1 = document.getElementById('e_make');
+        var model_val_1 = document.getElementById('e_model');
+        var model = document.getElementById('myModal').value;
+         axios.post('/editCars/' + id_val_1.value, {val_1: make_val_1.value, val_2: model_val_1.value})
+           .then(response => {
+             _this.getCars();
+           });
+    },
+
+
+
+    
 });
 
 

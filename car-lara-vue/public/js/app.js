@@ -49814,6 +49814,20 @@ var app = new Vue({
   },
   mounted: function mounted() {
     this.getCars();
+  },
+  editCar: function editCar() {
+    var _this = this;
+
+    var id_val_1 = document.getElementById('e_id');
+    var make_val_1 = document.getElementById('e_make');
+    var model_val_1 = document.getElementById('e_model');
+    var model = document.getElementById('myModal').value;
+    axios.post('/editCars/' + id_val_1.value, {
+      val_1: make_val_1.value,
+      val_2: model_val_1.value
+    }).then(function (response) {
+      _this.getCars();
+    });
   }
 });
 
