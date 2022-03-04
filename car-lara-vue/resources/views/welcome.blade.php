@@ -12,6 +12,26 @@
     <body>
         <div id="app">
 
+            <div class="title m-b-md">
+                Car
+            </div>
+            <div class="alert alert-danger" role="alert" v-bind:class="{hidden: hasError}">
+                All fields are required!
+            </div>
+            <div class="form-group">
+                <label for="make">Make</label>
+                <input type="text" class="form-control" id="make" required placeholder="Make" name="make" v-model="newCar.make">
+            </div>
+                                                    
+            <div class="form-group">
+                <label for="model">Model</label>
+                <input type="text" class="form-control" id="model" required placeholder="Model" name="model" v-model="newCar.model">
+            </div>
+            
+            <button class="btn btn-primary" @click.prevent="createCar()">
+                Add Car
+            </button>
+
         </div>   
     </body>
 </html>
