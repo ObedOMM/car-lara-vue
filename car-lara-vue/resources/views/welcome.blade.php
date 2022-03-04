@@ -10,10 +10,8 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
     </head>
     <body>
-
         <div id="app">
-            ...
-        </div>
-   
+
+        </div>   
     </body>
 </html>
