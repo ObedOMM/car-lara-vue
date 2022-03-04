@@ -1904,9 +1904,75 @@ module.exports = {
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/ExampleComponent.vue?vue&type=script&lang=js& ***!
   \***************************************************************************************************************************************************************************/
 /*! exports provided: default */
-/***/ (function(module, exports) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: D:\\Obed\\WorkDay69__04_03_2022\\projets\\car-lara-vue\\car-lara-vue\\resources\\js\\components\\ExampleComponent.vue: Unexpected token, expected \",\" (23:4)\n\n\u001b[0m \u001b[90m 21 |\u001b[39m     }\u001b[0m\n\u001b[0m \u001b[90m 22 |\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 23 |\u001b[39m     data\u001b[33m:\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 24 |\u001b[39m         newCar\u001b[33m:\u001b[39m {\u001b[32m'make'\u001b[39m\u001b[33m:\u001b[39m \u001b[32m''\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'model'\u001b[39m\u001b[33m:\u001b[39m \u001b[32m''\u001b[39m}\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 25 |\u001b[39m         hasError\u001b[33m:\u001b[39m \u001b[36mtrue\u001b[39m\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 26 |\u001b[39m         cars\u001b[33m:\u001b[39m []\u001b[33m,\u001b[39m\u001b[0m\n    at Parser._raise (D:\\Obed\\WorkDay69__04_03_2022\\projets\\car-lara-vue\\car-lara-vue\\node_modules\\@babel\\parser\\lib\\index.js:476:17)\n    at Parser.raiseWithData (D:\\Obed\\WorkDay69__04_03_2022\\projets\\car-lara-vue\\car-lara-vue\\node_modules\\@babel\\parser\\lib\\index.js:469:17)\n    at Parser.raise (D:\\Obed\\WorkDay69__04_03_2022\\projets\\car-lara-vue\\car-lara-vue\\node_modules\\@babel\\parser\\lib\\index.js:430:17)\n    at Parser.unexpected (D:\\Obed\\WorkDay69__04_03_2022\\projets\\car-lara-vue\\car-lara-vue\\node_modules\\@babel\\parser\\lib\\index.js:3789:16)\n    at Parser.expect (D:\\Obed\\WorkDay69__04_03_2022\\projets\\car-lara-vue\\car-lara-vue\\node_modules\\@babel\\parser\\lib\\index.js:3773:28)\n    at Parser.parseObjectLike (D:\\Obed\\WorkDay69__04_03_2022\\projets\\car-lara-vue\\car-lara-vue\\node_modules\\@babel\\parser\\lib\\index.js:13086:14)\n    at Parser.parseExprAtom (D:\\Obed\\WorkDay69__04_03_2022\\projets\\car-lara-vue\\car-lara-vue\\node_modules\\@babel\\parser\\lib\\index.js:12498:23)\n    at Parser.parseExprSubscripts (D:\\Obed\\WorkDay69__04_03_2022\\projets\\car-lara-vue\\car-lara-vue\\node_modules\\@babel\\parser\\lib\\index.js:12149:23)\n    at Parser.parseUpdate (D:\\Obed\\WorkDay69__04_03_2022\\projets\\car-lara-vue\\car-lara-vue\\node_modules\\@babel\\parser\\lib\\index.js:12129:21)\n    at Parser.parseMaybeUnary (D:\\Obed\\WorkDay69__04_03_2022\\projets\\car-lara-vue\\car-lara-vue\\node_modules\\@babel\\parser\\lib\\index.js:12104:23)\n    at Parser.parseMaybeUnaryOrPrivate (D:\\Obed\\WorkDay69__04_03_2022\\projets\\car-lara-vue\\car-lara-vue\\node_modules\\@babel\\parser\\lib\\index.js:11901:61)\n    at Parser.parseExprOps (D:\\Obed\\WorkDay69__04_03_2022\\projets\\car-lara-vue\\car-lara-vue\\node_modules\\@babel\\parser\\lib\\index.js:11908:23)\n    at Parser.parseMaybeConditional (D:\\Obed\\WorkDay69__04_03_2022\\projets\\car-lara-vue\\car-lara-vue\\node_modules\\@babel\\parser\\lib\\index.js:11878:23)\n    at Parser.parseMaybeAssign (D:\\Obed\\WorkDay69__04_03_2022\\projets\\car-lara-vue\\car-lara-vue\\node_modules\\@babel\\parser\\lib\\index.js:11833:21)\n    at D:\\Obed\\WorkDay69__04_03_2022\\projets\\car-lara-vue\\car-lara-vue\\node_modules\\@babel\\parser\\lib\\index.js:11791:39\n    at Parser.allowInAnd (D:\\Obed\\WorkDay69__04_03_2022\\projets\\car-lara-vue\\car-lara-vue\\node_modules\\@babel\\parser\\lib\\index.js:13817:16)\n    at Parser.parseMaybeAssignAllowIn (D:\\Obed\\WorkDay69__04_03_2022\\projets\\car-lara-vue\\car-lara-vue\\node_modules\\@babel\\parser\\lib\\index.js:11791:17)\n    at Parser.parseExportDefaultExpression (D:\\Obed\\WorkDay69__04_03_2022\\projets\\car-lara-vue\\car-lara-vue\\node_modules\\@babel\\parser\\lib\\index.js:15465:22)\n    at Parser.parseExport (D:\\Obed\\WorkDay69__04_03_2022\\projets\\car-lara-vue\\car-lara-vue\\node_modules\\@babel\\parser\\lib\\index.js:15353:31)\n    at Parser.parseStatementContent (D:\\Obed\\WorkDay69__04_03_2022\\projets\\car-lara-vue\\car-lara-vue\\node_modules\\@babel\\parser\\lib\\index.js:14229:27)\n    at Parser.parseStatement (D:\\Obed\\WorkDay69__04_03_2022\\projets\\car-lara-vue\\car-lara-vue\\node_modules\\@babel\\parser\\lib\\index.js:14113:17)\n    at Parser.parseBlockOrModuleBlockBody (D:\\Obed\\WorkDay69__04_03_2022\\projets\\car-lara-vue\\car-lara-vue\\node_modules\\@babel\\parser\\lib\\index.js:14739:25)\n    at Parser.parseBlockBody (D:\\Obed\\WorkDay69__04_03_2022\\projets\\car-lara-vue\\car-lara-vue\\node_modules\\@babel\\parser\\lib\\index.js:14730:10)\n    at Parser.parseProgram (D:\\Obed\\WorkDay69__04_03_2022\\projets\\car-lara-vue\\car-lara-vue\\node_modules\\@babel\\parser\\lib\\index.js:14032:10)\n    at Parser.parseTopLevel (D:\\Obed\\WorkDay69__04_03_2022\\projets\\car-lara-vue\\car-lara-vue\\node_modules\\@babel\\parser\\lib\\index.js:14019:25)\n    at Parser.parse (D:\\Obed\\WorkDay69__04_03_2022\\projets\\car-lara-vue\\car-lara-vue\\node_modules\\@babel\\parser\\lib\\index.js:15940:10)\n    at parse (D:\\Obed\\WorkDay69__04_03_2022\\projets\\car-lara-vue\\car-lara-vue\\node_modules\\@babel\\parser\\lib\\index.js:15992:38)\n    at parser (D:\\Obed\\WorkDay69__04_03_2022\\projets\\car-lara-vue\\car-lara-vue\\node_modules\\@babel\\core\\lib\\parser\\index.js:52:34)\n    at parser.next (<anonymous>)\n    at normalizeFile (D:\\Obed\\WorkDay69__04_03_2022\\projets\\car-lara-vue\\car-lara-vue\\node_modules\\@babel\\core\\lib\\transformation\\normalize-file.js:87:38)\n    at normalizeFile.next (<anonymous>)\n    at run (D:\\Obed\\WorkDay69__04_03_2022\\projets\\car-lara-vue\\car-lara-vue\\node_modules\\@babel\\core\\lib\\transformation\\index.js:31:50)\n    at run.next (<anonymous>)\n    at Function.transform (D:\\Obed\\WorkDay69__04_03_2022\\projets\\car-lara-vue\\car-lara-vue\\node_modules\\@babel\\core\\lib\\transform.js:25:41)\n    at transform.next (<anonymous>)\n    at step (D:\\Obed\\WorkDay69__04_03_2022\\projets\\car-lara-vue\\car-lara-vue\\node_modules\\gensync\\index.js:261:32)");
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  mounted: function mounted() {
+    console.log('Component mounted.');
+  },
+  data: {
+    newCar: {
+      'make': '',
+      'model': ''
+    },
+    hasError: true,
+    cars: []
+  }
+});
 
 /***/ }),
 
@@ -37492,37 +37558,8 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function () {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _vm._m(0)
-}
-var staticRenderFns = [
-  function () {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container" }, [
-      _c("div", { staticClass: "row justify-content-center" }, [
-        _c("div", { staticClass: "col-md-8" }, [
-          _c("div", { staticClass: "card" }, [
-            _c("div", { staticClass: "card-header" }, [
-              _vm._v("Example Component"),
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "card-body" }, [
-              _vm._v(
-                "\n                    I'm an example component.\n                "
-              ),
-            ]),
-          ]),
-        ]),
-      ]),
-    ])
-  },
-]
-render._withStripped = true
+var render = function () {}
+var staticRenderFns = []
 
 
 
@@ -49869,14 +49906,15 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /*!******************************************************!*\
   !*** ./resources/js/components/ExampleComponent.vue ***!
   \******************************************************/
-/*! exports provided: default */
+/*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ExampleComponent_vue_vue_type_template_id_299e239e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ExampleComponent.vue?vue&type=template&id=299e239e& */ "./resources/js/components/ExampleComponent.vue?vue&type=template&id=299e239e&");
 /* harmony import */ var _ExampleComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ExampleComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/ExampleComponent.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _ExampleComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _ExampleComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
@@ -49906,7 +49944,7 @@ component.options.__file = "resources/js/components/ExampleComponent.vue"
 /*!*******************************************************************************!*\
   !*** ./resources/js/components/ExampleComponent.vue?vue&type=script&lang=js& ***!
   \*******************************************************************************/
-/*! exports provided: default */
+/*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
