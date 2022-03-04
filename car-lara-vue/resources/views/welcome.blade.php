@@ -78,11 +78,6 @@
 
 
             <script>
-                data: {
-                    newCar: {'make': '', 'model': ''},
-                    hasError: true,
-                    cars: [],
-                }
 
 
             </script>

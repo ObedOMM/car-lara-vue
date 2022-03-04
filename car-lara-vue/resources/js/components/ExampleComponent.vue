@@ -19,5 +19,11 @@
         mounted() {
             console.log('Component mounted.')
         }
+
+        data: {
+            newCar: {'make': '', 'model': ''},
+            hasError: true,
+            cars: [],
+        }
     }
 </script>
