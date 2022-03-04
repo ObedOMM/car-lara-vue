@@ -68,7 +68,16 @@ const app = new Vue({
 
 
 
-    
+    deleteCar: function deleteCar(car) {
+        var _this = this;
+        axios.post('/deleteCar/' + car.id).then(function(response){
+         _this.getCars();
+            }).catch(error=>{
+                  console.log("Delete car: "+error);
+                  });
+    },
+
+              
 });
 
 

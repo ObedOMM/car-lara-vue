@@ -49828,6 +49828,15 @@ var app = new Vue({
     }).then(function (response) {
       _this.getCars();
     });
+  },
+  deleteCar: function deleteCar(car) {
+    var _this = this;
+
+    axios.post('/deleteCar/' + car.id).then(function (response) {
+      _this.getCars();
+    })["catch"](function (error) {
+      console.log("Delete car: " + error);
+    });
   }
 });
 
