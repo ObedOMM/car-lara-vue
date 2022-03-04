@@ -61,7 +61,20 @@
             </table>
 
 
-            
+
+            <div class="modal-body">
+                <input type="hidden" disabled class="form-control" id="e_id" name="id" required :value="this.e_id">
+                    Make: <input type="text" class="form-control" id="e_make" name="make" required :value="this.e_make">
+                    Model: <input type="text" class="form-control" id="e_model" name="model" required  :value="this.e_model">
+            </div>    
+                                    
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" @click="editCar()">Save changes</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+
+
+
 
 
             <script>

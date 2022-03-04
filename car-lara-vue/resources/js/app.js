@@ -7,6 +7,16 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 const app = new Vue({
     el: '#app',
 
+        e_id: '',
+        e_make: '',
+        e_model: '',
+
+        setVal(val_id, val_make, val_model) {
+            this.e_id = val_id;
+            this.e_make = val_make;
+            this.e_model = val_model;
+          },
+
     createCar: function createCar() {
         var input = this.newCar;
         var _this = this;

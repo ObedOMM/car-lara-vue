@@ -49774,6 +49774,14 @@ window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.
 Vue.component('example-component', __webpack_require__(/*! ./components/ExampleComponent.vue */ "./resources/js/components/ExampleComponent.vue")["default"]);
 var app = new Vue({
   el: '#app',
+  e_id: '',
+  e_make: '',
+  e_model: '',
+  setVal: function setVal(val_id, val_make, val_model) {
+    this.e_id = val_id;
+    this.e_make = val_make;
+    this.e_model = val_model;
+  },
   createCar: function createCar() {
     var input = this.newCar;
 
