@@ -32,6 +32,11 @@ const app = new Vue({
             console.log("Get All: "+error);
         });
     },
+
+
+    mounted: function mounted(){
+        this.getCars();
+    },
 });
 
 

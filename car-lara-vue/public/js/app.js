@@ -49803,6 +49803,9 @@ var app = new Vue({
     })["catch"](function (error) {
       console.log("Get All: " + error);
     });
+  },
+  mounted: function mounted() {
+    this.getCars();
   }
 });
 

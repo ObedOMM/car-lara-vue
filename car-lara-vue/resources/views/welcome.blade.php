@@ -33,6 +33,37 @@
             </button>
 
 
+
+
+
+            <table class="table table-striped" id="table">
+                <thead>
+                    <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Make</th>
+                    <th scope="col">Model</th>
+                    <th scope="col">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr v-for ="car in cars">
+                    <th scope="row">@{{car.id}}</th>
+                    <td>@{{car.make}}</td>
+                    <td>@{{car.model}}</td>
+
+                    <td @click="setVal(car.id, car.make, car.model)"  class="btn btn-info" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"><i class="fa fa-pencil"></i>
+                    </td>
+                    <td  @click.prevent="deleteCar(car)" class="btn btn-danger"> 
+                    <i class="fa fa-trash"></i>
+                    </td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+            
+
+
             <script>
                 data: {
                     newCar: {'make': '', 'model': ''},
