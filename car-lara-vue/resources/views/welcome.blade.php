@@ -32,6 +32,17 @@
                 Add Car
             </button>
 
+
+            <script>
+                data: {
+                    newCar: {'make': '', 'model': ''},
+                    hasError: true,
+                    cars: [],
+                }
+
+                
+            </script>
+
         </div>   
     </body>
 </html>
