@@ -22,4 +22,15 @@ class CarsController extends Controller
 
         return $cars;
     }
+
+
+    public  function editCar(Request $request, $id){
+        $car = Cars::where('id',$id)->first();
+
+        $car->make = $request->get('val_1');
+        $car->model = $request->get('val_2');
+        $car->save();
+
+        return $car;
+    }
 }
