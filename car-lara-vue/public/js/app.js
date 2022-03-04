@@ -49774,6 +49774,27 @@ window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.
 Vue.component('example-component', __webpack_require__(/*! ./components/ExampleComponent.vue */ "./resources/js/components/ExampleComponent.vue")["default"]);
 var app = new Vue({
   el: '#app',
+  createCar: function createCar() {
+    var input = this.newCar;
+
+    var _this = this;
+
+    if (input['make'] == '' || input['model'] == '') {
+      this.hasError = false;
+    } else {
+      this.hasError = true;
+      axios.post('/storeCar', input).then(function (response) {
+        _this.newCar = {
+          'make': '',
+          'model': ''
+        };
+
+        _this.getCars();
+      })["catch"](function (error) {
+        console.log("Insert: " + error);
+      });
+    }
+  },
   getCars: function getCars() {
     var _this = this;
 
