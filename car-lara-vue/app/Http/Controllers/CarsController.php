@@ -33,4 +33,10 @@ class CarsController extends Controller
 
         return $car;
     }
+
+
+    public function deleteCar(Request $request){
+        $car = Cars::find($request->id)->delete();
+    }
+
 }
