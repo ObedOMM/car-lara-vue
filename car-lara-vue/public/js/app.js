@@ -49773,7 +49773,16 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
 Vue.component('example-component', __webpack_require__(/*! ./components/ExampleComponent.vue */ "./resources/js/components/ExampleComponent.vue")["default"]);
 var app = new Vue({
-  el: '#app'
+  el: '#app',
+  getCars: function getCars() {
+    var _this = this;
+
+    axios.get('/getCars').then(function (response) {
+      _this.cars = response.data;
+    })["catch"](function (error) {
+      console.log("Get All: " + error);
+    });
+  }
 });
 
 /***/ }),
